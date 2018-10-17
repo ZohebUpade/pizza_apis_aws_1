@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class FongRestController {
 	@RequestMapping
 	String mapToHttp() {
-		return  "Welcome!";
+		return  "Hello World!";
 	}
 
 }
